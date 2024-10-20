@@ -8,3 +8,9 @@ Hence, the "Basic Klicky for Enderwire" idea, which would be a standard Klicky p
 Disclaimer:
 
 * This solution isn't fully automated. The Klicky probe has to be attached manually before any print (this is an opportunity for improvement, if we can come up with an idea to home X and Y, and then have a Z height pin to make the height of the dock known to the printer, then picking up the Klicky probe, and continuing with the described functionality).
+
+Ideas:
+
+* Fix the mount onto the bed through the back right bed screw.
+* Find a reliable way to detect the probe attaching to the toolhead mount. This may not be possible within acceptable safety parameters.
+* If there is no way to get it to attach the probe without the use of an additional Z endstop behind the bed, just add a prompt for the user to manually attach the bed, and when an "Accept" button is pressed, it checks whether the line is now closed to determine that the probe is indeed attached.
